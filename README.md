@@ -33,7 +33,7 @@ markdown
 ### 1. No. of ratings of highest-rated iPhones on Flipkart
 Identified the highest-rated models. The iPhone XR variants consistently received the highest ratings.
 
-![Top Rated iPhones](images/iphone_vs_ratings.png)
+![Top Rated iPhones](iphone_vs_ratings.png)
 
 ### 2. Relationship between Sale Price and Number of Ratings
 Discovered a strong inverse correlation – more affordable iPhones generate a significantly higher volume of customer ratings.
@@ -42,4 +42,4 @@ Discovered a strong inverse correlation – more affordable iPhones generate a s
 figure = px.scatter(data_frame=data, x='Number Of Ratings', y='Sale Price', trendline='ols')
 figure.show()
 ```
-![Price vs Ratings](images/relation_bw_saleprice_no_of_ratings.png)
+![Price vs Ratings](relation_bw_saleprice_no_of_ratings.png)
